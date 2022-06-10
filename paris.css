@@ -1,0 +1,79 @@
+html {
+    background-image: linear-gradient(#002654, #FFFFFF, #ED2939);
+    width: 100vw;
+}
+
+h1 {
+    color: #ED2939;
+    text-align: center;
+}
+
+h4 {
+    color: #FFFFFF;
+    text-align: center;
+}
+h3 {
+        color: #002654;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+a {
+    color: #002654;
+}
+
+a:hover {
+    color:#FFFFFF;
+}
+
+figcaption {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    overflow-x:auto;
+}
+table td, table th {
+    border: solid black;
+}
+
+th {
+    text-align: left;
+}
+
+.map {
+    height: 300px;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+
+  /*Feature Overlay*/
+  .overlay-container {
+      background-color: #002654;
+      width: 150px;
+      color: white;
+      text-align: center;
+      border-radius: 5px;
+      padding:  2px 0;
+      position: absolute;
+      z-index: 1;
+      left: 50%;
+      bottom: 100%;
+      margin-left: -80px;
+      border: solid #ED2939 2px;
+  }
+
+  .overlay-container #feature-museums::after{
+      content: ' ';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -10px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: #002654 transparent transparent transparent;
+  }
