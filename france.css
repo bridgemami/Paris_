@@ -1,0 +1,63 @@
+html {
+    background-image: linear-gradient(#002654, #FFFFFF, #ED2939);
+    width: 100vw;
+    
+}
+
+h1 {
+    color: #ED2939;
+    text-align: center;
+}
+
+h4, summary {
+    color: #FFFFFF;
+}
+
+summary {
+    font-size: 1.13em;
+    font-weight: bold;
+}
+h3 {
+        color: #002654;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+a {
+    color: #002654;
+}
+
+a:hover {
+    color:#FFFFFF;
+}
+
+figcaption {
+    text-align: center;
+}
+
+footer {
+    border-top: solid 5px #002654;
+  }
+  nav {
+    display: flex;
+   justify-content: center;
+   align-content: center;
+  }
+
+  nav a {
+    color: #002654;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  nav li {
+    list-style-type: none;
+  }
+
+  nav ul {
+    padding-left: 0;
+  }

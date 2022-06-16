@@ -77,3 +77,27 @@ th {
       border-style: solid;
       border-color: #002654 transparent transparent transparent;
   }
+
+  footer {
+    border-top: solid 5px #002654;
+  }
+  nav {
+    display: flex;
+   justify-content: center;
+   align-content: center;
+  }
+
+  nav a {
+    color: #002654;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  nav li {
+    list-style-type: none;
+  }
+
+  nav ul {
+    padding-left: 0;
+  }
